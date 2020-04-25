@@ -60,3 +60,11 @@ npm install @ng-bootstrap/ng-bootstrap
 this command is to fix some warnings when you do an npm install  
 npm audit fix  
 and then in Ngmodule file import the NgbModule and also add ngbModule in imports array  
+
+# Subject
+Subject is a sub class of Observable   
+it is used to publish the events to subscribers  
+price : Subject<number> = new Subject<number>()  
+ andd now to publish the upddated value of price.  
+ price.next(10);  
+ 
