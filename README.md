@@ -46,4 +46,5 @@ somemethod();
     return this.httpClient.get<Product>(productUrl);   
   }
 
-
+# angular language serivce
+intall plugin in vss code.  
