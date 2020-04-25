@@ -12,9 +12,12 @@ https://angular.io/guide/template-syntax#safe-navigation-operator
 # routerLink
 routerLink="/products/{{ product.id }}"     
 
+# ActivateRoute
+route:  ActivateRoute
 
 # path
-const router: Router = [ {path: 'product/:id', component: ProductComponent} ]
+route:  ActivateRoute
+const route: Router = [ {path: 'product/:id', component: ProductComponent} ]
 
 # string to number
 // get the id from param string and convert the string to a number using the "+" symbol  
@@ -26,3 +29,10 @@ this.productservice.getproduct().subscribe(
  
  # template string
  `{this.value}`
+
+# onNgInit
+onNgInit(): void {  
+this.route.paramMap.subscribe(()=> {  
+somemethod();  
+})  
+}
