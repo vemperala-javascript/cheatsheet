@@ -49,7 +49,7 @@ somemethod();
 # angular language serivce
 intall plugin in vss code.  
 view -> extennions -> angular language service   
-this. extension helps tocompile. the agular code and how any errors at the compile time  
+this. extension helps tocompile. the agular code and show any errors at the compile time  
 
 # ng booststrap 
 this is used for pagination.  
@@ -59,4 +59,4 @@ npm install @ng-bootstrap/ng-bootstrap
 
 this command is to fix some warnings when you do an npm install  
 npm audit fix  
-and then in ngmodule file import the ngbModule and also add ngbModule in imports array  
+and then in Ngmodule file import the NgbModule and also add ngbModule in imports array  
