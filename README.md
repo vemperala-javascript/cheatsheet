@@ -59,3 +59,4 @@ npm install @ng-bootstrap/ng-bootstrap
 
 this command is to fix some warnings when you do an npm install  
 npm audit fix  
+and then in ngmodule file import the ngbModule and also add ngbModule in imports array  
