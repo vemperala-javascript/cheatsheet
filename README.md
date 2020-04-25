@@ -48,3 +48,5 @@ somemethod();
 
 # angular language serivce
 intall plugin in vss code.  
+view -> extennions -> angular language service   
+this. extension helps tocompile. the agular code and how any errors at the compile time
