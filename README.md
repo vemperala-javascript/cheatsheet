@@ -2,7 +2,7 @@
 
 
 safe navigation operator
-# products?.lenght==0   
+# products?.length==0   
 
 above statement is equal to
 
