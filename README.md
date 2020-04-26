@@ -68,3 +68,9 @@ price : Subject<number> = new Subject<number>()
  andd now to publish the upddated value of price.  
  price.next(10);  
  
+# only show 2 digits after the decimal eg 148.98
+price.toFixed(2)  
+
+# Arrays.find()
+cartitems.find(tempcartitem => tempcartitem.id === thecartitem.id);  
+the method returns the first element in an array that passes the test.  
